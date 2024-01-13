@@ -1,7 +1,6 @@
-# Discord Bot Panel - DBP
+# OverCraft Bot Panel - OBP
 
 Host and manage your discord bots from a web panel, deploy once use anywhere. Please read and follow the guide carefully to properly setup the panel.
-We host our panel on [DigitalOcean](https://www.digitalocean.com/?refcode=bcc56aadc190&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge), and so can you. You can signup from our url for a 100$ start-up credit<br>
 
 ![Image](/preview.jpg)
 
@@ -26,7 +25,6 @@ npm i forever -g
 
 ```shell
 ## Download Code
-git clone https://github.com/jareer12/DiscordBotPanel.git
 ## Open the folder
 cd DiscordBotPanel
 ## Install Required Modules
@@ -39,19 +37,9 @@ mv .env.example .env
 
 ```shell
 ## Clone this repository
-git clone https://github.com/jareer12/DiscordBotPanel.git
 
 ## Rename .env - Change everything to your liking except PORT
 mv .env.example
-```
-
-### Demo
-
-[https://server.jubot.site/](https://server.jubot.site/create)
-
-```env
-Username: admin
-Password: admin
 ```
 
 ### Env config
@@ -91,7 +79,7 @@ docker compose up -d
 ```nginx
 server  {
     listen 80;
-    server_name    server.jubot.site; ## Your Server
+    server_name    server.name.com; ## Your Server
 
     location / {
         proxy_pass         http://localhost:2278; ### Replace "2278" With Your Port(If You Changed).
