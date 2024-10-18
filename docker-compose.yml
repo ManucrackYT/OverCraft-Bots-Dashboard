@@ -1,7 +1,7 @@
 version: "3"
 services:
   node:
-    container_name: discord_bot_dashboard
+    container_name: overdash
     build: .
     ports:
       - 8080:2278
