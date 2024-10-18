@@ -1,4 +1,4 @@
-# OverCraft Bot Panel - OBP
+# OverDash
 
 Host and manage your discord bots from a web panel, deploy once use anywhere. Please read and follow the guide carefully to properly setup the panel.
 
@@ -26,7 +26,7 @@ npm i forever -g
 ```shell
 ## Download Code
 ## Open the folder
-cd DiscordBotPanel
+cd OverDash
 ## Install Required Modules
 npm install
 ### Rename .env
@@ -58,14 +58,14 @@ Once the installation and configuration is complete we can start our panel and r
 
 ```shell
 ## Open the folder
-cd DiscordBotPanel
+cd OverDash
 ## Run the panel
 forever start index.js
 ```
 
 ```shell
 ## This can also be used but is not recommended
-cd DiscordBotPanel && node .
+cd OverDash && node .
 ```
 
 #### Docker Compose
